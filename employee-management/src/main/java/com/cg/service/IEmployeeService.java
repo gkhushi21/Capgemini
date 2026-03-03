@@ -1,0 +1,16 @@
+package com.cg.service;
+
+
+
+import java.util.List;
+
+import com.cg.bean.Employee;
+
+    public interface IEmployeeService {
+        public String createEmployee(Employee emp);
+        public Employee findById(String empid);
+        public List<Employee> getAllEmployee();
+        public String updateEmployeeName(String empid,String name);
+        public String removeEmployee(String empid);
+    }
+
